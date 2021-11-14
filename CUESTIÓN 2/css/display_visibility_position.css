@@ -1,0 +1,13 @@
+p.ej1 {display: none;}
+
+p.ej2 {visibility: hidden;}
+
+div.ej3 {
+    position:relative;
+    width: 700px;
+    left: 20px;
+    border: 1px solid black;
+}
+span{
+    font-weight: bold;
+}

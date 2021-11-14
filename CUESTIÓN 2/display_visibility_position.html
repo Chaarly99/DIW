@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/display_visibility_position.css">
+</head>
+<body>
+    <h1>Diferencias entre Display, Visibility y Position</h1>
+
+    <h2>Display: none:</h2>
+    <div>
+    Display none no mantiene la posición del elemento en la web al desaparecer. <p class="ej1">HELLO WORLD!</p> El elemento ha desaparecido y ha perdido su posición inicial.
+    </div>
+
+    <h2>Visibility: hidden:</h2>
+    <div>
+        Visibility hidden mantiene la posición del elemento en la web al desaparecer. <p class="ej2">HELLO WORLD!</p> El elemento ha desaparecido pero su posición la sigue manteniendo.
+    </div>
+
+    <h2>Position:</h2>
+    <div class="ej3">
+        Position establece el posicionamiento de un elemento en la web. Pudiendo tomar valores como <span>STATIC</span>(que se posiciona de acuerdo con el flujo de la página), <span>RELATIVE</span>(que puede tomar valores en torno a las propiedades left, right, up y down para ajustarse con respecto a su posición normal), <span>FIXED</span>(que se posiciona en relación a la venta gráfica, por lo que siempre se queda en una posición fija aunque el usuario desplace la página), <span>ABSOLUTE</span>(que se posiciona en relación con su elemento padre, si no tiene, se posiciona con respecto al body), y <span>STICKY</span>(que se posiciona según el desplazamiento del usuario alternando entre relative y fixed).
+    </div>
+</body>
+</html>

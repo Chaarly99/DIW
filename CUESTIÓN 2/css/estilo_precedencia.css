@@ -1,0 +1,24 @@
+div.peliculas p{
+	background-color: blue;
+    color: white;
+}
+div:not(.peliculas) p{
+	background-color: red;
+    color: white;
+}
+
+#campusfp {
+    text-align:center
+}
+
+[id="campusfp"] {
+    text-align:left;
+}
+
+#padre {
+	border: 1px solid purple;
+}
+
+div {
+	border: 1px solid red;
+}

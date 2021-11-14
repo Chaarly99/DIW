@@ -1,0 +1,70 @@
+@bg_bd: lightblue;
+@col: #C7755A;
+@bord: 1px solid black;
+@text_pos: center;
+
+body{
+  background-color: lightblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+legend{
+  color: @col;
+  text-align: @text_pos;
+  font-weight:bold;
+}
+select{
+  border-radius: 2%;
+}
+form{
+  width: fit-content;
+  display: inline-block; /*Posiciona el form en el centro de la pantalla*/
+  text-align: @text_pos;
+}
+
+.images{
+  width: 200px;
+  height: 200px;
+  margin-right: 2%;
+}
+img{
+  border:@bord;
+}
+.asigns, th, td{
+  border: @bord;
+  /*Centramos la tabla*/
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+th{
+  background-color: white;
+}
+a{
+  color: @col;
+}
+p{
+  font-weight:bold;
+  text-align: @text_pos;
+}
+h2#title{
+  text-align: @text_pos;
+}
+input#fechaNac{
+  width: 63%;
+}
+input#dni{
+  padding-left: 14%;
+}
+input#tel{
+  padding-left: 9%;
+}
+input{
+  margin-bottom: 2%;
+  border-radius: 5%;
+}
+
+@media screen and (max-width: 700px){
+  .install, .compilar{
+    width: 100%;
+  }
+}
